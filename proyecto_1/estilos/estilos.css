@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', cursive;
+}
+
+
+html{
+    background-color: black;
+    background: linear-gradient(90deg, white 0%, black 100%);
+}
+
+header h1{
+    margin: 20px;
+    display: inline-block;
+    border: 4px solid;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-color: rgb(255, 255, 255);
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.973);
+    background: linear-gradient(90deg, white 0%, rgb(92, 92, 92) 100%);
+    /* border-radius: 70px; */
+    padding: 2%;
+    box-shadow: -30px 10px 30px;
+    box-sizing: border-box;
+    text-shadow: 5px -3px 5px white;
+}
+
+header h1:hover{
+    border-color: rgb(0, 0, 0);
+    box-shadow: -30px 10px 30px rgb(80, 80, 80);
+    
+    
+}

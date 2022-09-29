@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+}
+
+div{
+    background-color: #b1060f;
+    height: 260px;
+    width: 60px;
+    position: relative;
+    display: inline-block;
+}
+div::before{
+    background-color: #b1060f;
+    height: 260px;
+    width: 60px;
+    position: absolute;
+    content: '';
+    left: 90px;
+}
+div::after{
+    background: rgb(0, 0, 0);
+    height: 18px;
+    width: 175px;
+    position: absolute;
+    content: '';
+    left: -8px;
+    bottom: -15px;
+    border-radius: 50%;
+}
+
+span{
+    position:absolute;
+    background: #e50913;
+    height: 270px;
+    width: 60px;
+    left: 48px;
+    transform: skew(20deg);
+    box-shadow: 0 0 20px rgb(107, 1, 1);
+}
